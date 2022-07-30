@@ -1,6 +1,6 @@
 import { InfoOutlined, PlayArrow } from '@material-ui/icons'
 import React from 'react'
-import "featured.scss"
+import "./featured.scss"
 
 
 export default function Featured({ type }) {
