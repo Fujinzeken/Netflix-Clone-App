@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function Register() {
   const [email, setEmail] = React.useState("")
 
-  // const [password, setPassword] = React.useState("")
+  const [password, setPassword] = React.useState("")
   
   const emailRef = useRef()
   const passwordRef = useRef()
@@ -14,9 +14,9 @@ function Register() {
     setEmail(emailRef.current.value)
   }
 
-  // function handleFinish(){
-  //   setPassword(passwordRef.current.value)
-  // }
+  function handleFinish(){
+    setPassword(passwordRef.current.value)
+  }
 
   return (
     <div className='register'>
@@ -41,7 +41,7 @@ function Register() {
               
           </div> : 
           <form className='input'>
-              <input type="password" placeholder='Password'  required></input>
+              <input type="password" placeholder='Password'  ref={passwordRef} required></input>
               <Link to="/"style={{color:"inherit", textDecoration: "none", height:"100%",fontSize:"20px"}}>
               <button className='registerButton' onClick={handleFinish}> Start</button>
               </Link>
