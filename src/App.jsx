@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home"
 import Login from "./pages/Login/Login";
 import Register from "./pages/register/Register";
 import Watch from "./pages/watch/Watch";
-import {BrowserRouter as Router,Routes, Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Routes, Route} from "react-router-dom";
 const App = () => {
   const user =true
   return (

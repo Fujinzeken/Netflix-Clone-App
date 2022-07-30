@@ -1,4 +1,3 @@
-import React, { useRef } from 'react'
 import "./login.scss";
 import {Link} from "react-router-dom";
 export default function Login() {

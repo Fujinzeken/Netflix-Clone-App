@@ -1,7 +1,5 @@
 import { InfoOutlined, PlayArrow } from '@material-ui/icons'
 import React, { useEffect} from 'react'
-import "./featured.scss"
-import axios from "axios";
 
 
 export default function Featured({ type }) {
