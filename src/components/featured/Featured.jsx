@@ -1,5 +1,5 @@
 import { InfoOutlined, PlayArrow } from '@material-ui/icons'
-import React, { useEffect} from 'react'
+import React from 'react'
 
 
 export default function Featured({ type }) {
