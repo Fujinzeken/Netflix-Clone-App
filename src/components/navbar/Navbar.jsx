@@ -18,10 +18,10 @@ function Navbar() {
               <span>Homepage</span>
               </Link>
               <Link to="/series" style={{color:"inherit", textDecoration: "none"}}>
-              <span>Series</span>
+              <span className="navbarmainLinks">Series</span>
               </Link>
               <Link to="/movies" style={{color:"inherit", textDecoration: "none"}}>
-              <span>Movies</span>
+              <span className="navbarmainLinks">Movies</span>
               </Link>
               <span>New and Popular</span>
               <span>My list</span>
